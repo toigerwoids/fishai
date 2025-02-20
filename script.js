@@ -1205,10 +1205,10 @@ infoDiv.html(
   function getProbabilitiesBasedOnThreshold(marketCap) {
     if (marketCap < 50000) {
       return {
-        paramecium: 0.6,
+        paramecium: 0.5,
         plankton: 0.1,
         fishEgg: 0.1,
-        fishLarvaEgg: 0.1,
+        fishLarvaEgg: 0.2,
         fishLarva: 0.1,
         neonTrail: 0,
         rainbowTrail: 0,
@@ -1218,11 +1218,11 @@ infoDiv.html(
       };
     } else if (marketCap < 70000) {
       return {
-        paramecium: 0.5,
+        paramecium: 0.3,
         plankton: 0.1,
         fishEgg: 0.1,
         fishLarvaEgg: 0.1,
-        fishLarva: 0.1,
+        fishLarva: 0.3,
         neonTrail: 0.1,
         rainbowTrail: 0,
         jellyfish: 0,
