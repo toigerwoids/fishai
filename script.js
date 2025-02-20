@@ -1248,23 +1248,23 @@ infoDiv.html(
         plankton: 0.2,
         fishEgg: 0.1,
         fishLarvaEgg: 0.1,
-        fishLarva: 0.2,
+        fishLarva: 0.1,
         neonTrail: 0.1,
-        rainbowTrail: 0,
+        rainbowTrail: 0.1,
         jellyfish: 0,
         stingray: 0,
         undulatingSerpent: 0
       };
     } else if (marketCap < 500000) {
       return {
-        paramecium: 0.2,
+        paramecium: 0.1,
         plankton: 0.2,
         fishEgg: 0.1,
         fishLarvaEgg: 0.1,
         fishLarva: 0.2,
         neonTrail: 0.1,
         rainbowTrail: 0.1,
-        jellyfish: 0,
+        jellyfish: 0.1,
         stingray: 0,
         undulatingSerpent: 0
       };
