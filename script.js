@@ -9,7 +9,7 @@ $(document).ready(function () {
     tela,
     canvas;
   let marketCap = 0; // Replace environmentHealth with marketCap
-  const MAX_MARKETCAP = 200000; // Replace MAX_HEALTH
+  const MAX_MARKETCAP = 500000; // Replace MAX_HEALTH
   let mouseX = 0;
   let mouseY = 0;
   const REPULSION_RADIUS = 100;
@@ -1338,7 +1338,7 @@ infoDiv.html(
 
   function calculateEnvironmentParams() {
     const marketCapPercent = marketCap / MAX_MARKETCAP; // Scale marketCap to a percentage
-    const baseParticles = 70;
+    const baseParticles = 90;
     const marketCapDropPercent =
       previousMarketCap > 0
         ? (previousMarketCap - marketCap) / previousMarketCap
