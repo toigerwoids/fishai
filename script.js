@@ -1338,7 +1338,7 @@ infoDiv.html(
 
   function calculateEnvironmentParams() {
     const marketCapPercent = marketCap / MAX_MARKETCAP; // Scale marketCap to a percentage
-    const baseParticles = 50;
+    const baseParticles = 70;
     const marketCapDropPercent =
       previousMarketCap > 0
         ? (previousMarketCap - marketCap) / previousMarketCap
